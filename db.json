@@ -1,4 +1,6 @@
-[
+
+{
+    "cortes":[
     {
         "id": 1,
         "name": "Costilla",
@@ -54,3 +56,4 @@
         "image": "../img/products/morcilla.jpg"
     }
 ]
+}
