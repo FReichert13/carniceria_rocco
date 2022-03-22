@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Costilla",
+        "price": 699,
+        "image": "../img/products/costilla.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Vacío",
+        "price": 749,
+        "image": "../img/products/vacio.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Matambre",
+        "price": 779,
+        "image": "../img/products/matambre.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Peceto",
+        "price": 599,
+        "image": "../img/products/peceto.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Bife de chorizo",
+        "price": 879,
+        "image": "../img/products/bifedechorizo.webp"
+    },
+    {
+        "id": 6,
+        "name": "Entraña",
+        "price": 999,
+        "image": "../img/products/entraña.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Tapa de asado",
+        "price": 639,
+        "image": "../img/products/tapa_de_asado.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Chorizo",
+        "price": 449,
+        "image": "../img/products/chorizo.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Morcilla",
+        "price": 339,
+        "image": "../img/products/morcilla.jpg"
+    }
+]
