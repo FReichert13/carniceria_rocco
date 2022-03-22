@@ -1,0 +1,30 @@
+button {
+	font-family: inter;
+	font-size: 1rem;
+	font-weight: 700;
+	padding: 0.6rem;
+	border: 3px solid;
+	border-radius: 3rem;
+	background: var(--white);
+}
+
+button:hover{
+	background-color: black;
+	color: var(--white);
+}
+
+.filters__button:hover {
+	background-color: var(--black-2);
+	color: var(--white-2);
+	cursor: pointer;
+}
+
+.filters__button--active{
+	background-color: var(--black-2);
+	color: var(--white-2);
+}
+
+.cart-buy-disabled{
+	background-color: black;
+	color: var(--white);
+}

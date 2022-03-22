@@ -1,0 +1,17 @@
+.modal-notification{
+    display: none;
+	position: fixed;
+	z-index: 1;
+    right: 0;
+	left: 0;
+	bottom: 0;
+    margin: 5% auto;
+	max-width: 200px;
+	overflow: auto;
+    text-align: center;
+    background-color: var(--white);
+    border: 1px solid pink;
+    color: black;
+    font-weight: bold;
+    border-radius: 2px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Carnicería Rocco</title>
+		<script src="./assets/jquery/jquery-3.6.0.min.js"></script>
+		<link rel="stylesheet" href="./assets/css/main.css">
+	</head>
+	<body>
+		<div id="container">
+			<header class="header">
+				<h1>Carnicería Rocco</h1>
+				<a class="cart">
+					<img src="img/cart.svg" alt="icono del carrito" />
+					<span class="cart__count">0</span>
+				</a>
+			</header>
+			<main>
+				<div class="modal">
+					<div class="modal__content">
+						<div class="modal__nav">
+							<span class="back">
+								<img src="./img/back.svg" alt="boton volver" />
+							</span>
+							<h2>Carrito</h2>
+							<p class="modal__indicator">Kgs: 0</p>
+						</div>
+						<div class="cart-container" id="cart-container"></div>
+						<p class="cart-total">Total: 0$</p>
+						<button class="cart-buy">Comprar</button>
+					</div>
+				</div>
+				<h1>Cortes</h1>
+				<section class="products" id="products-section"></section>
+			</main>
+		</div>
+		<script src="./assets/js/scripts.js"></script>
+		<script src="./assets/js/storage.js"></script>
+		<script src="./assets/js/functions.js"></script>
+		<script src="./assets/js/index.js"></script>
+	</body>
+</html>

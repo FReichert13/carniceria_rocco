@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url(./colors.css);
+@import url(./button.css);
+@import url(./layout.css);
+@import url(./modalCart.css);
+@import url(./modalNotificaton.css);
+
+html {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: pink;
+	color: var(--black-2);
+	font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+#container {
+	max-width: 1200px;
+	padding: 0 8px;
+	margin: 0 auto;
+}
